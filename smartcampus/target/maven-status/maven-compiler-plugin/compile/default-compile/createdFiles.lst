@@ -1,0 +1,16 @@
+com\example\smartcampus\model\Room.class
+com\example\smartcampus\entity\Schedule.class
+com\example\smartcampus\service\CourseService.class
+com\example\smartcampus\entity\Faculty.class
+com\example\smartcampus\model\Course.class
+com\example\smartcampus\repository\FacultyRepository.class
+com\example\smartcampus\model\ScheduleRequest.class
+com\example\smartcampus\SmartcampusApplication.class
+com\example\smartcampus\entity\Room.class
+com\example\smartcampus\repository\TimeSlotRepository.class
+com\example\smartcampus\service\SchedulerService.class
+com\example\smartcampus\repository\RoomRepository.class
+com\example\smartcampus\entity\Course.class
+com\example\smartcampus\repository\CourseRepository.class
+com\example\smartcampus\repository\ScheduleRepository.class
+com\example\smartcampus\entity\TimeSlot.class

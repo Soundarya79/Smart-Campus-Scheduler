@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Campus Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎓 Smart Campus Scheduler</h1>
+    <p>Automated Class Timetable Management</p>
+</header>
+
+<div class="container">
+
+    <!-- COURSES -->
+    <section class="card">
+        <h2>Add Course</h2>
+        <input type="text" placeholder="Course Name">
+        <button>Add Course</button>
+    </section>
+
+    <!-- ROOMS -->
+    <section class="card">
+        <h2>Add Room</h2>
+        <input type="text" placeholder="Room Name">
+        <input type="number" placeholder="Capacity">
+        <button>Add Room</button>
+    </section>
+
+    <!-- FACULTY -->
+    <section class="card">
+        <h2>Add Faculty</h2>
+        <input type="text" placeholder="Faculty Name">
+        <button>Add Faculty</button>
+    </section>
+
+    <!-- TIME SLOT -->
+    <section class="card">
+        <h2>Add Time Slot</h2>
+        <select>
+            <option>Monday</option>
+            <option>Tuesday</option>
+            <option>Wednesday</option>
+            <option>Thursday</option>
+            <option>Friday</option>
+        </select>
+        <input type="time">
+        <input type="time">
+        <button>Add Slot</button>
+    </section>
+
+</div>
+
+<!-- SCHEDULE -->
+<section class="schedule">
+    <h2>Generate Schedule</h2>
+    <button class="generate">Generate Timetable</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Faculty</th>
+                <th>Room</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data Structures</td>
+                <td>Dr. Kumar</td>
+                <td>CSE-101</td>
+                <td>Monday</td>
+                <td>09:00 - 10:00</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<footer>
+    <p>© 2026 Smart Campus Scheduler</p>
+</footer>
+
+</body>
+</html>
